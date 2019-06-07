@@ -13,9 +13,9 @@ export class RecipeListComponent implements OnInit {
      'This is simply a test' ,
       'https://images.unsplash.com/photo-1559160582-eab6966b680f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'),
 
-    new Recipe ('A test recipe' ,
-    'This is simply a test' ,
-     'https://images.unsplash.com/photo-1559160582-eab6966b680f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')
+    new Recipe ('Another test recipe' ,
+    'This is another test' ,
+     'https://50campfires.com/wp-content/uploads/2015/10/21-smore-cover.jpg')
   ];
 
   constructor() { }

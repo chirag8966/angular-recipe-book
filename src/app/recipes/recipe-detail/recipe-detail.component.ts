@@ -8,9 +8,10 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeDetailComponent implements OnInit {
   @Input() recipe: Recipe ;
+  // localName: string;
 
   constructor() {
-    console.log(this.recipe.name);
+    // console.log(this.recipe.name);
    }
 
   ngOnInit() {
